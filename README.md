@@ -19,14 +19,14 @@
 
 ## 📖 ¿Qué es este repositorio?
 
-Es el **MVP no-code de ÉGIDA** (validación de Fase 2), preservado como un portal ligero y autocontenido en GitHub Pages.
+Es el **MVP no-code de ÉGIDA** (validación de Fase 2), publicado como un portal ligero y autocontenido en GitHub Pages.
 
-El MVP se construyó originalmente con herramientas **no-code**:
+El MVP se construyó con un enfoque **no-code / low-code**:
 
-- **Softr** — el portal (formularios de autodiagnóstico, vistas, roles) se armó sin escribir código.
+- **Kiro** — el portal y la lógica del autodiagnóstico se generaron con Kiro, el agente de desarrollo asistido por IA: se especifica el comportamiento en lenguaje natural y el agente produce la implementación, sin escribir el código a mano.
 - **Chatbase** — el asistente normativo (agente RAG con base de conocimiento + prompt de citación) es genuinamente no-code y **sigue en vivo**, embebido en la pestaña «Asistente».
 
-> ⚠️ **Por qué existe este repositorio:** la suscripción de **Softr es de pago** y está por expirar. Para no perder el MVP no-code (requisito de la entrega), esta página **preserva la experiencia del portal** en GitHub Pages —gratuito y permanente— manteniendo embebido el agente RAG de Chatbase, que es el componente no-code central y sigue operativo. Es una **instantánea de preservación**, no un intento de hacer pasar código por no-code: el portal aquí es una página estática que replica el flujo del MVP; la IA embebida es la pieza no-code real.
+> ⚠️ **Qué significa "no-code" aquí:** el MVP no se programó a mano — el portal se generó de forma **agéntica con Kiro** y el asistente es un **agente RAG de Chatbase** (sin código). Esta página se publica en **GitHub Pages** (gratuito y permanente) para que el MVP quede accesible de forma estable; sustituye al hosting previo del portal, cuya suscripción de pago está por expirar.
 
 ---
 
@@ -55,7 +55,7 @@ Validado el concepto con este MVP no-code, ÉGIDA se reconstruyó como **product
 
 ---
 
-## 🏗️ Tecnología de esta preservación
+## 🏗️ Cómo está publicado
 
 | Aspecto | Detalle |
 |---------|---------|
