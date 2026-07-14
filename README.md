@@ -26,7 +26,7 @@ El MVP se construyó con un enfoque **no-code / low-code**:
 - **Kiro** — el portal y la lógica del autodiagnóstico se generaron con Kiro, el agente de desarrollo asistido por IA: se especifica el comportamiento en lenguaje natural y el agente produce la implementación, sin escribir el código a mano.
 - **Chatbase** — el asistente normativo (agente RAG con base de conocimiento + prompt de citación) es genuinamente no-code y **sigue en vivo**, embebido en la pestaña «Asistente».
 
-> ⚠️ **Qué significa "no-code" aquí:** el MVP no se programó a mano — el portal se generó de forma **agéntica con Kiro** y el asistente es un **agente RAG de Chatbase** (sin código). Esta página se publica en **GitHub Pages** (gratuito y permanente) para que el MVP quede accesible de forma estable; sustituye al hosting previo del portal, cuya suscripción de pago está por expirar.
+> ⚠️ **Qué significa "no-code" aquí:** el MVP no se programó a mano — el portal se generó de forma **agéntica con Kiro** y el asistente es un **agente RAG de Chatbase** (sin código). Esta página se publica en **GitHub Pages** para que el MVP quede accesible de forma estable.
 
 ---
 
@@ -59,8 +59,9 @@ Validado el concepto con este MVP no-code, ÉGIDA se reconstruyó como **product
 
 | Aspecto | Detalle |
 |---------|---------|
-| Archivo | `index.html` único, autocontenido (logo embebido como data URI) |
+| Archivos | `index.html` + `app.js` (JS externo, sin código ni manejadores inline); logo embebido como data URI |
 | Hosting | GitHub Pages (estático, gratuito) |
+| Seguridad | HTTPS forzado (+ HSTS de `*.github.io`, preload); Content-Security-Policy estricta (`script-src 'self'`, sin `unsafe-inline`) y Referrer-Policy `no-referrer` por `<meta>` |
 | IA | iframe del agente RAG de Chatbase (no-code, en vivo) + modo offline con respuestas de la validación |
 | Cálculo IMI | Determinístico en JavaScript (replica la lógica del MVP) |
 | Tema visual | macOS dark, paleta NTSIC, identidad de la marca ÉGIDA |
