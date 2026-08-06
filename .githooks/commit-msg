@@ -1,0 +1,31 @@
+#!/bin/sh
+# commit-msg — regla permanente del repositorio (ver CLAUDE.md):
+# ningun mensaje de commit registra autoria ni coautoria de Claude/Anthropic.
+#
+# Elimina en silencio cualquier linea de atribucion antes de crear el commit.
+# Si perl no esta disponible, rechaza el commit en vez de dejar pasar la linea.
+
+msg_file="$1"
+[ -f "$msg_file" ] || exit 0
+
+if ! command -v perl >/dev/null 2>&1; then
+  if grep -Eiq '(co-?authored-by|signed-off-by|assisted-by)[^\n]*(claude|anthropic)|noreply@anthropic\.com|generated with.*claude' "$msg_file"; then
+    echo "commit-msg: el mensaje contiene una atribucion a Claude/Anthropic." >&2
+    echo "Esta prohibida en este repositorio (ver CLAUDE.md). Eliminala y reintenta." >&2
+    exit 1
+  fi
+  exit 0
+fi
+
+perl -0777 -i -pe '
+  s/^[ \t]*Co-?[ \t]*Authored[-_ ]?By:[^\n]*(?:claude|anthropic)[^\n]*\n?//gmi;
+  s/^[ \t]*Signed-off-by:[^\n]*(?:claude|anthropic)[^\n]*\n?//gmi;
+  s/^[ \t]*Assisted-by:[^\n]*(?:claude|anthropic)[^\n]*\n?//gmi;
+  s/^[^\n]*generated[ \t]+with[^\n]*claude[^\n]*\n?//gmi;
+  s/^[^\n]*noreply\@anthropic\.com[^\n]*\n?//gmi;
+  s/[ \t]+$//gm;
+  s/\s+\z//;
+  $_ .= "\n" if length $_;
+' "$msg_file"
+
+exit 0
