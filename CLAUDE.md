@@ -1,5 +1,7 @@
 # Reglas del repositorio — egida-mvp
 
+> 📋 Estado y cambios del repositorio: [`REGISTRO-CLAUDE.md`](REGISTRO-CLAUDE.md).
+
 ## Autoría: regla permanente y no negociable
 
 **En este repositorio no se registra autoría ni coautoría de Claude, Anthropic ni de
