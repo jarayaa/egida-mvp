@@ -1,0 +1,73 @@
+Hola
+hola!
+Buenos días
+Buenas tardes
+Buenas noches
+¿Qué tal?
+Saludos
+Buenas
+Muy buenos días
+Hola, ¿en qué me ayudas?
+¿Qué puedes hacer?
+¿Qué es lo que puedes hacer?
+¿En qué me puedes ayudar?
+¿En qué me puedes ayudar exactamente?
+¿Qué normas conoces?
+¿Qué leyes conoces?
+¿Para qué sirves?
+¿Quién eres?
+¿Qué puedo preguntar?
+¿sobre qué puedes responder?
+¿Qué tipo de preguntas puedo hacerte?
+¿Qué preguntas puedo hacerte?
+¿Sobre qué temas puedo preguntarte?
+¿Qué me puedes responder?
+¿Cuál es tu alcance?
+¿Cuáles son tus capacidades?
+¿En qué me puede ayudar?
+¿En qué puede ayudarme?
+¿Me puede ayudar?
+¿Qué puede hacer usted?
+¿Qué puede hacer este asistente?
+¿Qué puede hacer?
+¿Qué hace usted?
+¿Qué normas conoce?
+¿Qué normas maneja?
+¿Qué normas tiene?
+¿Qué normativa conoce?
+¿Qué puede responder?
+¿Sobre qué puede responder?
+¿Sobre qué materias puede orientarme?
+¿Qué consultas puede responder?
+¿Cuáles son sus capacidades?
+¿Cuál es su función?
+¿Cuáles son sus funciones?
+¿Cuál es su alcance?
+¿Qué información tiene?
+Buenos días, ¿en qué me puede ayudar?
+Estimado, ¿en qué me puede ayudar?
+¿Qué preguntas le puedo hacer al asistente?
+¿Qué se le puede preguntar a este asistente?
+¿Qué temas cubre el asistente?
+¿Qué materias cubre?
+¿Qué temas abarca?
+¿Qué se puede consultar aquí?
+¿Qué se puede consultar en esta plataforma?
+¿Para qué sirve?
+¿Para qué sirve este asistente?
+¿Para qué sirve ÉGIDA?
+¿Qué es ÉGIDA?
+¿Cómo funciona?
+¿Cómo se usa?
+¿Cómo uso esto?
+¿Cómo se utiliza este asistente?
+Ayuda
+Necesito ayuda
+Ayúdeme
+Dame ejemplos de preguntas
+Deme ejemplos de consultas
+¿Me das ejemplos de lo que puedo preguntar?
+¿Qué puedo consultar?
+¿Sobre qué puedo preguntar?
+¿De qué temas sabe?
+¿Qué corpus tiene?

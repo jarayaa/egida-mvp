@@ -93,13 +93,19 @@ function modoAsistente(m){
 function enviar(){
   const inp=document.getElementById("pregunta"); const t=inp.value.trim(); if(!t)return;
   agregar("u",t); inp.value="";
+  // Compuerta determinista de bienvenida/capacidades, ANTES de la búsqueda por palabra
+  // clave: sin ella, "¿en qué me puede ayudar?" caía a la frase de no cobertura, que es
+  // justo lo contrario de lo que corresponde responder a esa pregunta.
+  if(esSaludoOCapacidades(t)){ setTimeout(()=>agregar("a",BIENVENIDA,true),500); return; }
   const tl=t.toLowerCase();
   const hit=QA.find(x=>x.claves.some(k=>tl.includes(k)));
   setTimeout(()=>agregar("a",hit?hit.r:NO_COBERTURA,true),500);
 }
 function agregar(tipo,txt,adv){
   const d=document.createElement("div");d.className="msg "+tipo;d.textContent=txt;
-  if(adv&&txt!==NO_COBERTURA){const s=document.createElement("span");s.className="adv";s.textContent="⚠ "+ADVERTENCIA;d.appendChild(s);}
+  // La advertencia asistiva acompaña respuestas NORMATIVAS. Ni la no cobertura ni la
+  // bienvenida lo son: adosársela sugeriría que hay un juicio normativo que validar.
+  if(adv&&txt!==NO_COBERTURA&&txt!==BIENVENIDA){const s=document.createElement("span");s.className="adv";s.textContent="⚠ "+ADVERTENCIA;d.appendChild(s);}
   const ch=document.getElementById("chat");ch.appendChild(d);ch.scrollTop=ch.scrollHeight;
 }
 

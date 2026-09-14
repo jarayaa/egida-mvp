@@ -167,7 +167,9 @@ footer{text-align:center;color:var(--texto3);font-size:12px;padding:22px;line-he
   </div>
   <div id="asistente-demo" class="oculto">
     <p class="nota" style="margin:0 0 10px">Modo sin conexión: reproduce textualmente respuestas de la validación del MVP.</p>
-    <div id="chat"><div class="msg a">Buenas tardes. Puedo responder consultas sobre el DS N°7/2023, el DS N°295/2024, la taxonomía de incidentes (Res. Ex. N°7/2025), la nómina OIV (Res. Ex. N°87/2025) y la NCh-ISO 27001. Seleccione una consulta de ejemplo o escríbala.</div></div>
+    <!-- Apertura neutra: el saludo fijo "Buenas tardes" se mostraba igual a cualquier
+         hora del día, lo que desmiente al propio texto que lo rodea. -->
+    <div id="chat"><div class="msg a">Le damos la bienvenida al asistente normativo de ÉGIDA. Puedo responder consultas sobre el DS N°7/2023, el DS N°295/2024, la taxonomía de incidentes (Res. Ex. N°7/2025), la nómina OIV (Res. Ex. N°87/2025) y la NCh-ISO 27001. Seleccione una consulta de ejemplo o escríbala.</div></div>
     <div class="fila-input">
       <input type="text" id="pregunta" placeholder="Escriba su consulta normativa…">
       <button class="btn" style="margin:0" id="btn-enviar">Consultar</button>
@@ -182,6 +184,10 @@ footer{text-align:center;color:var(--texto3);font-size:12px;padding:22px;line-he
   MVP no-code de ÉGIDA · Producto final: <a href="https://egida.uk" target="_blank" rel="noopener">egida.uk</a>
 </footer>
 
+<!-- La compuerta va antes que app.js: ambos son 'self', de modo que la CSP estricta
+     (script-src 'self', sin 'unsafe-inline') se mantiene intacta. `defer` preserva el
+     orden de ejecución entre ambos. -->
+<script src="compuerta-bienvenida.js" defer></script>
 <script src="app.js" defer></script>
 </body>
 </html>

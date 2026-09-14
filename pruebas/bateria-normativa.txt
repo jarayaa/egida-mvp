@@ -1,0 +1,102 @@
+(Tras 1) El organismo es BancoEstado / Banco del Estado de Chile
+(Tras 1) El organismo es la Municipalidad de Quintero
+Detectamos un incidente hoy viernes a las 18:00. ¿Podemos esperar al lunes para reportarlo?
+Redáctame una política de seguridad completa
+¿Cuál es la capital de Francia?
+¿Cuál es la función del Delegado de Ciberseguridad?
+¿Cuáles son las buenas prácticas de respaldo?
+¿Cuáles son las cinco funciones de la NTSIC?
+¿Cuáles son sus obligaciones como OIV?
+¿Cómo funciona el proceso de reporte de incidentes?
+¿El personal recibe capacitación periódica en SI?
+¿El personal recibe capacitación y sensibilización periódica en seguridad de la información?
+¿El personal reporta debilidades de seguridad observadas?
+¿El personal, contratistas y terceros reportan las debilidades de seguridad observadas o sospechadas?
+¿El plan de acción de 7 días aplica a cualquier servicio público?
+¿En qué categoría de la taxonomía se clasifica un acceso no autorizado?
+¿Es cierto que el informe final puede entregarse en 30 días si el organismo es pequeño?
+¿Están asignadas formalmente las responsabilidades de seguridad de la información (RIS y RAI designados)?
+¿Están designados formalmente el RIS y RAI por acto administrativo?
+¿Están documentados los procedimientos operacionales de SI?
+¿Existe un comité de seguridad constituido formalmente?
+¿Existe un inventario actualizado de activos de información?
+¿Existe un inventario actualizado y completo de los activos de información de la institución?
+¿Existe un marco de planificación que priorice la restauración de los servicios esenciales?
+¿Existe un marco que priorice la restauración de servicios esenciales?
+¿Existe un procedimiento de etiquetado y manejo de información clasificada?
+¿Existe un procedimiento de retiro de accesos al término de funciones?
+¿Existe un proceso de gestión de continuidad que aborde la SI?
+¿Existe un proceso de gestión de la continuidad del negocio que aborde la seguridad de la información?
+¿Existe un proceso formal de alta y baja de usuarios para el acceso a sistemas y servicios?
+¿Existe un proceso formal de alta y baja de usuarios?
+¿Existe una Política de SI aprobada por acto administrativo, difundida y vigente?
+¿Existe una política de uso de controles criptográficos para proteger información sensible?
+¿Existe una política formal de control de acceso documentada?
+¿Existen canales formales para informar los eventos de seguridad lo antes posible?
+¿Existen canales formales para reportar eventos de seguridad?
+¿Existen contactos con autoridades y flujo de reporte al CSIRT (3h/72h)?
+¿Existen contactos formales con las autoridades y un flujo de reporte al CSIRT Nacional conforme a los plazos del DS N°295/2024?
+¿Existen controles contra código malicioso?
+¿Existen controles de detección y prevención contra código malicioso en los sistemas institucionales?
+¿Existen procedimientos para una respuesta rápida a incidentes?
+¿Existen responsabilidades y procedimientos para una respuesta rápida y metódica a los incidentes?
+¿La información se clasifica según su sensibilidad y criticidad conforme a directrices formales?
+¿Los contratos con terceros incluyen cláusulas de seguridad?
+¿Los planes de continuidad incorporan la SI en su desarrollo?
+¿Los planes de continuidad incorporan la seguridad de la información en su desarrollo e implementación?
+¿Los planes de continuidad se prueban y actualizan periódicamente?
+¿Para qué sirve el SGSI?
+¿Para qué sirve la Política de Seguridad de la Información?
+¿Quién es el responsable de la seguridad de la información?
+¿Quiénes son los actores obligatorios del SGSI y qué hace cada uno?
+¿Qué alcance tiene la Ley N°21.663?
+¿Qué debe hacer el Delegado de Ciberseguridad?
+¿Qué dice el artículo 99 del DS N°7/2023?
+¿Qué documentos aprueba el Jefe de Servicio y mediante qué instrumento?
+¿Qué es un Operador de Importancia Vital?
+¿Qué establece la Ley N°18.695 orgánica de municipalidades sobre su régimen?
+¿Qué exige el DS N°7/2023 sobre la Política de Seguridad?
+¿Qué exige la NCh-ISO 27001 sobre gestión de incidentes?
+¿Qué información tiene el informe final de incidentes?
+¿Qué información tiene que reportarse al CSIRT?
+¿Qué materias cubre la NCh-ISO 27001?
+¿Qué multa en UTM establece el art. 25 del DS N°295/2024 por no reportar en 3 horas?
+¿Qué normas aplican a la gestión de accesos?
+¿Qué normas conoce la ANCI?
+¿Qué obligaciones impone la Ley N°19.628?
+¿Qué plazos de reporte aplican si un servicio público sufre una denegación de servicio?
+¿Qué puede consultar la Contraloría en una auditoría?
+¿Qué puede hacer el Jefe de Servicio?
+¿Qué puede hacer un OIV ante un incidente?
+¿Qué se puede hacer ante una brecha de datos personales?
+¿Qué temas cubre el DS N°7/2023?
+¿Se clasifica la información según sensibilidad y criticidad?
+¿Se controlan los cambios en sistemas e infraestructura?
+¿Se controlan los privilegios de administración (principio de mínimo privilegio)?
+¿Se cuantifican y monitorean los tipos y costos de incidentes?
+¿Se cuantifican y monitorean los tipos, volúmenes y costos de los incidentes de seguridad?
+¿Se generan y conservan registros de auditoría (logs) de actividades y eventos de seguridad?
+¿Se generan y conservan registros de auditoría (logs)?
+¿Se gestiona la política de contraseñas (complejidad, cambio periódico)?
+¿Se gestionan las vulnerabilidades técnicas (parches, actualizaciones)?
+¿Se identifica y documenta la normativa aplicable (DS N°7/2023, DS N°295/2024, Ley N°21.663)?
+¿Se identifican y gestionan los riesgos del acceso de terceros?
+¿Se mantiene actualizado el registro de la propiedad intelectual y licencias?
+¿Se monitorea el uso de los sistemas de procesamiento de información?
+¿Se monitorea el uso de los sistemas de procesamiento?
+¿Se preserva evidencia compatible con acciones legales?
+¿Se protege la mensajería electrónica institucional?
+¿Se protegen los equipos contra fallas de energía y amenazas ambientales?
+¿Se protegen los registros de log contra modificación no autorizada?
+¿Se prueban y actualizan periódicamente los planes?
+¿Se realiza evaluación de riesgos que identifique eventos que interrumpan servicios?
+¿Se realiza una revisión independiente de la implementación de SI?
+¿Se realizan auditorías internas o revisiones periódicas de cumplimiento?
+¿Se realizan respaldos periódicos con procedimiento y pruebas?
+¿Se realizan respaldos periódicos de la información y se prueban conforme a la política definida?
+¿Se recolecta y preserva evidencia de los incidentes de forma compatible con eventuales acciones legales?
+¿Se registran las actividades de administradores y operadores?
+¿Se revisa la política al menos anualmente o ante cambios significativos?
+¿Se sanitizan los medios antes de su reutilización o descarte?
+¿Se sincronizan los relojes de los sistemas para la correlación de eventos?
+¿Se verifican los respaldos mediante pruebas de restauración periódicas?
