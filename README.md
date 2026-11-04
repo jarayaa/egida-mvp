@@ -42,6 +42,47 @@ respalda ante una fiscalización. ÉGIDA las convierte en un recorrido trazable:
 
 ---
 
+## El producto, en pantallas
+
+Capturas del 4 de noviembre de 2026, tomadas de la versión de desarrollo sobre un **organismo
+ficticio** («Servicio Ficticio de Demostración ÉGIDA»): ningún dato corresponde a una institución
+real. La instancia publicada en [egida.uk](https://egida.uk) puede ir una versión por detrás.
+
+<div align="center">
+
+**Autodiagnóstico.** Cada control con su escala de madurez 0–3 y la normativa que lo exige; el
+índice parcial se recalcula a medida que se responde.
+
+![Autodiagnóstico en curso](pantallas/02-autodiagnostico.png)
+
+**Panel del directivo.** Índice de madurez, brechas, controles en nivel objetivo y el avance por
+cada una de las cinco funciones del DS N°7/2023.
+
+![Panel del directivo](pantallas/03-panel-radar-directivo.png)
+
+**Malla normativa.** Los controles por función, con su obligatoriedad. La secuencia es una
+sugerencia de remediación del proyecto y no constituye orden normativo.
+
+![Malla normativa](pantallas/09-malla-normativa.png)
+
+**Asistente: las fuentes de una respuesta.** Cada pasaje citado procede del corpus indexado y se
+muestra para contrastarlo con el texto oficial.
+
+![Fuentes de una respuesta del asistente](pantallas/07b-asistente-fuentes-citadas.png)
+
+**Asistente: lo que no cubre, lo declara.** Ante una consulta ajena al corpus no improvisa una
+respuesta.
+
+![Abstención ante una consulta fuera del corpus](pantallas/08-asistente-abstencion.png)
+
+</div>
+
+> Las respuestas del asistente requieren siempre validación humana: la atribución de cada
+> afirmación a su fuente todavía se está endureciendo, y por eso aquí se muestran las fuentes y la
+> abstención, no una respuesta redactada.
+
+---
+
 ## Principio rector
 
 > En el sector público la innovación solo vale si es **trazable, auditable y verificable**.
