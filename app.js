@@ -83,29 +83,18 @@ function recalcular(){
   document.getElementById("imi-valor").textContent=fmt(imi);
   document.getElementById("barras").innerHTML=FUNCIONES.map(f=>barra(f,prom[f])).join("");
 }
-function modoAsistente(m){
-  document.getElementById("asistente-vivo").classList.toggle("oculto",m!=="vivo");
-  document.getElementById("asistente-demo").classList.toggle("oculto",m!=="demo");
-  const vivo=m==="vivo";
-  const tv=document.getElementById("tab-vivo"), td=document.getElementById("tab-demo");
-  tv.className=vivo?"btn":"btn sec"; td.className=vivo?"btn sec":"btn";
-}
 function enviar(){
   const inp=document.getElementById("pregunta"); const t=inp.value.trim(); if(!t)return;
   agregar("u",t); inp.value="";
-  // Compuerta determinista de bienvenida/capacidades, ANTES de la búsqueda por palabra
-  // clave: sin ella, "¿en qué me puede ayudar?" caía a la frase de no cobertura, que es
-  // justo lo contrario de lo que corresponde responder a esa pregunta.
-  if(esSaludoOCapacidades(t)){ setTimeout(()=>agregar("a",BIENVENIDA,true),500); return; }
   const tl=t.toLowerCase();
   const hit=QA.find(x=>x.claves.some(k=>tl.includes(k)));
   setTimeout(()=>agregar("a",hit?hit.r:NO_COBERTURA,true),500);
 }
 function agregar(tipo,txt,adv){
   const d=document.createElement("div");d.className="msg "+tipo;d.textContent=txt;
-  // La advertencia asistiva acompaña respuestas NORMATIVAS. Ni la no cobertura ni la
-  // bienvenida lo son: adosársela sugeriría que hay un juicio normativo que validar.
-  if(adv&&txt!==NO_COBERTURA&&txt!==BIENVENIDA){const s=document.createElement("span");s.className="adv";s.textContent="⚠ "+ADVERTENCIA;d.appendChild(s);}
+  // La advertencia asistiva acompaña respuestas NORMATIVAS. La no cobertura no lo es:
+  // adosársela sugeriría que hay un juicio normativo que validar.
+  if(adv&&txt!==NO_COBERTURA){const s=document.createElement("span");s.className="adv";s.textContent="⚠ "+ADVERTENCIA;d.appendChild(s);}
   const ch=document.getElementById("chat");ch.appendChild(d);ch.scrollTop=ch.scrollHeight;
 }
 
@@ -113,8 +102,6 @@ function agregar(tipo,txt,adv){
 document.getElementById("menu").addEventListener("click",e=>{ if(e.target.dataset.v) mostrar(e.target.dataset.v); });
 document.getElementById("btn-ir-auto").addEventListener("click",()=>mostrar("autodiagnostico"));
 document.getElementById("btn-ir-asist").addEventListener("click",()=>mostrar("asistente"));
-document.getElementById("tab-vivo").addEventListener("click",()=>modoAsistente("vivo"));
-document.getElementById("tab-demo").addEventListener("click",()=>modoAsistente("demo"));
 document.getElementById("btn-enviar").addEventListener("click",enviar);
 document.getElementById("pregunta").addEventListener("keydown",e=>{ if(e.key==="Enter") enviar(); });
 // Delegación: los <select> del autodiagnóstico se crean dinámicamente.

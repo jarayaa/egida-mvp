@@ -161,12 +161,10 @@ publicado aquí y todavía navegable: **[jarayaa.github.io/egida-mvp](https://ja
 
 **Resultado de la validación: 16/16 consultas respondidas con citas correctas y 0 alucinaciones.**
 
-Cómo se construyó, que es parte del hallazgo: el portal se generó de forma **agéntica con Kiro**
-—se especifica el comportamiento en lenguaje natural y el agente produce la implementación— y el
-asistente es un **agente RAG de Chatbase**, genuinamente no-code y embebido en la pestaña
-«Asistente». La página es autocontenida (`index.html` + `app.js`, sin manejadores en línea), se
-sirve por GitHub Pages sobre HTTPS con política de contenido estricta, y conserva un modo sin
-conexión con las respuestas de la validación.
+La página es autocontenida (`index.html` y `app.js`, sin manejadores en línea), se sirve por
+GitHub Pages sobre HTTPS con política de contenido estricta, y su pestaña «Asistente» reproduce,
+sin conexión, las respuestas de la validación. El agente RAG no-code con que se validó ya no está
+embebido.
 
 ### Del MVP al producto
 
