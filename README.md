@@ -45,7 +45,7 @@ respalda ante una fiscalización. ÉGIDA las convierte en un recorrido trazable:
 ## El producto, en pantallas
 
 Capturas del 4 de noviembre de 2026, tomadas de la versión de desarrollo sobre un **organismo
-ficticio** («Servicio Ficticio de Demostración ÉGIDA»): ningún dato corresponde a una institución
+sintético** ("Servicio de Demostración ÉGIDA (datos sintéticos)"): ningún dato corresponde a una institución
 real. La instancia publicada en [egida.uk](https://egida.uk) puede ir una versión por detrás.
 
 <div align="center">
